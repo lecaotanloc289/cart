@@ -1,0 +1,104 @@
+@import './global.scss';
+.bestseller {
+    .stack1 {
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px!important;
+    }
+    .stack2{
+        .card-item {
+            padding: 20px;
+            width: 250px;
+            
+        }
+        .headercard {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+            
+        }
+        .stackheader {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .card-item {
+            min-height: 520px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            .csale {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #FCEBE8;
+                width: 49px;
+                height: 24px;
+                border-radius: 4px;
+            }
+            .sale {
+                align-items: center;
+                justify-content: center;
+                color: #DE3618;  
+            }
+            .img {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 20px
+            }
+            .title{
+                margin-bottom: 20px;
+                .cate {
+                    font-family: var(--font-family-rubik);
+                    font-size: 13px;
+                    color: #959EAD
+                }
+                .name {
+                    white-space: pre-wrap;
+                    font-family: var(--font-family-rubik);
+                    font-size: 16px;
+                    font-weight: 800;
+                    color: #161D25  
+                }
+                .rating {
+                    font-size: 18px;
+                }
+                .pr {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                }
+            }
+            .btncard {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .btn{
+                    width: 200px;
+                    height: 40px;
+                    .normal {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .icon {
+                        margin: 10px;
+                    }
+                }
+                .btn1 {
+                    background-color: #5C6AC4;
+                }
+                .btn2 {
+                    border-color: #5C6AC4;
+                }
+            }
+        }
+    }
+}
+
+    
+   
